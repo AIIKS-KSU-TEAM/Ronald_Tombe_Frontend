@@ -1,67 +1,10 @@
 <script setup>
-import { ref, onMounted } from "vue";
-import axios from "axios";
-import { useRoute } from "vue-router";
-import moment from "moment";
+import { useBlogPost } from "@/composables/useBlogPost";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
-const post = ref(null);
-const comments = ref([]);
-const comment = ref({
-  name: "",
-  email: "",
-  content: "",
-  post: null,
-});
-
-const route = useRoute();
-
-onMounted(async () => {
-  const { year, month, day, slug } = route.params;
-
-  try {
-    const response = await axios.get(
-      `http://localhost:8000/blog/post/${year}/${month}/${day}/${slug}/`,
-    );
-    post.value = response.data;
-    // Format the publish date with time details
-    post.value.publish = moment(post.value.publish).format(
-      "MMMM D, YYYY [at] h:mm:ss a",
-    );
-    fetchComments();
-  } catch (error) {
-    console.error("Error fetching post:", error);
-  }
-});
-
-const fetchComments = async () => {
-  try {
-    const response = await axios.get(
-      `http://localhost:8000/blog/post/${post.value.id}/comments/`,
-    );
-    comments.value = response.data;
-  } catch (error) {
-    console.error("Error fetching comments:", error);
-  }
-};
-
-const submitComment = async () => {
-  try {
-    comment.value.post = post.value.id;
-    await axios.post(
-      `http://localhost:8000/blog/post/${post.value.id}/comments/`,
-      comment.value,
-    );
-
-    comment.value.name = "";
-    comment.value.email = "";
-    comment.value.content = "";
-    fetchComments();
-  } catch (error) {
-    console.error("Error submitting comment:", error);
-  }
-};
+// Use the composable to handle post and comments logic
+const { post, comments, comment, isLoading, errorMessage, submitComment } = useBlogPost();
 </script>
 
 <template>
@@ -74,6 +17,12 @@ const submitComment = async () => {
       <div class="row">
         <!-- Blog Post -->
         <div class="col-md-11 mx-auto">
+          <div v-if="isLoading">
+            <p>Loading...</p>
+          </div>
+          <div v-if="errorMessage">
+            <p>{{ errorMessage }}</p>
+          </div>
           <div v-if="post" class="mt-2">
             <h1>{{ post.title }}</h1>
             <p class="date">
@@ -81,9 +30,6 @@ const submitComment = async () => {
               {{ post.publish }}
             </p>
             <p v-html="post.body" class="fs-5 lh-base text-secondary"></p>
-          </div>
-          <div v-else>
-            <p>Loading...</p>
           </div>
 
           <!-- Comment Form -->
@@ -121,8 +67,6 @@ const submitComment = async () => {
                     required
                   ></textarea>
                 </div>
-                <!-- Hidden input field to store the post ID -->
-                <input type="hidden" v-model="comment.post" />
                 <button type="submit" class="btn btn-outline-secondary mt-2">
                   Submit
                 </button>
@@ -157,15 +101,3 @@ const submitComment = async () => {
     </footer>
   </div>
 </template>
-<style scoped>
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-h1,
-h2,
-h3,
-p {
-  font-family: "Roboto", sans-serif;
-}
-</style>

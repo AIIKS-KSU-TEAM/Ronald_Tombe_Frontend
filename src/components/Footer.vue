@@ -28,7 +28,7 @@
             </li>
             <li>
               <a href="/about" class="text-white text-decoration-none"
-                >About Me</a
+                >Profile</a
               >
             </li>
             <li>

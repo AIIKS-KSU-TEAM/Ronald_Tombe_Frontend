@@ -38,7 +38,7 @@ const isNavbarCollapsed = ref(true);
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About Me</a>
+            <a class="nav-link" href="/about">Profile</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/blog">Blog</a>

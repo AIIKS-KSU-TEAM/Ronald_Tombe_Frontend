@@ -1,39 +1,18 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
+import { useEvents } from "@/composables/useEvents";
 import axios from "axios";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+
+// Use the composable to handle events fetching
+const { recentHighlights, upcomingEvents, isLoading, errorMessage } = useEvents();
 
 const name = ref("");
 const email = ref("");
 const message = ref("");
 const formMessage = ref("");
 const alertType = ref("");
-const recentHighlights = ref([]);
-const upcomingEvents = ref([]);
-
-const fetchEvents = async () => {
-  try {
-    const response = await axios.get("http://127.0.0.1:8000/api/events/");
-    const events = response.data;
-    const currentDate = new Date();
-
-    events.forEach((event) => {
-      const eventDate = new Date(event.date);
-      if (eventDate < currentDate) {
-        recentHighlights.value.push(event);
-      } else {
-        upcomingEvents.value.push(event);
-      }
-    });
-  } catch (error) {
-    console.error("Failed to fetch events", error);
-  }
-};
-
-onMounted(() => {
-  fetchEvents();
-});
 
 const submitForm = async (event) => {
   event.preventDefault();
@@ -132,15 +111,16 @@ const submitForm = async (event) => {
             </iframe>
           </div>
 
-          <!-- Upcoming Events -->
-          <h2 class="h2 mb-4">Upcoming Events</h2>
-          <hr class="bg-warning w-25 mx-0 mx-md-0" />
-          <ul class="list-unstyled">
-            <li v-for="event in upcomingEvents" :key="event.id">
-              <strong>{{ new Date(event.date).toLocaleDateString() }}:</strong>
-              {{ event.title }} - {{ event.description }}
-            </li>
-          </ul>
+          <!-- Display loading or events -->
+          <div v-if="isLoading">Loading events...</div>
+          <div v-else>
+            <h2>Upcoming Events</h2>
+            <ul>
+              <li v-for="event in upcomingEvents" :key="event.id">
+                {{ event.title }} - {{ event.date }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
