@@ -16,56 +16,54 @@ import Navbar from "@/components/Navbar.vue";
       >
         <h1 class="display-4 fw-bold mb-3">Dr. Ronald Keng'ara Tombe</h1>
         <p class="lead text-secondary mb-4">
-          A visionary leader in Artificial Intelligence and Sustainable
-          Agriculture. Dr. Tombe's journey blends academic excellence with
-          impactful community work, aiming to revolutionize agriculture through
-          AI.
+          A lecturer in the Department of Computing Sciences at Kisii University,
+          a Research Fellow at Future Africa, 
+          University of Pretoria, the Director of programs at AIIKS Kisii University chapter, 
+          and the Co-founder of the Artificial Intelligence Alliance in Agriculture
         </p>
         <div
           class="d-flex flex-row flex-sm-row justify-content-center justify-content-lg-start mt-4 gap-2"
         >
           <a
-            href="#about-section"
+            href="/about"
             class="btn btn-primary flex-grow-1"
             style="border-radius: 20px; min-width: 130px"
-            >About Me</a
+            >Profile</a
           >
           <a
-            href="@/assets/Dr.Tombe_CV.PDF"
-            download="Dr.Tombe_CV.doc"
+            href="https://scholar.google.com/citations?user=SpAdUDYAAAAJ&hl=en"
             class="btn btn-outline-secondary flex-grow-1"
             style="border-radius: 20px; min-width: 130px"
-            >Download CV</a
+            >Research</a
           >
         </div>
       </div>
-      <!-- Image Section: Appears second on small screens -->
       <div
         class="col-12 col-lg-6 order-1 order-lg-2 position-relative mb-4 mb-lg-0"
       >
         <img
           class="img-fluid rounded"
-          src="@/assets/ron.png"
+          src="@/assets/images/hero1.png"
           alt="Ronald Tombe Image"
         />
       </div>
     </section>
 
-    <!-- Know Me More Section Start -->
     <section class="text-center mt-5">
       <div class="mb-4">
-        <h3 class="fw-bold">Know Me More</h3>
+        <h3 class="fw-bold">Qualifications</h3>
         <hr class="w-25 mx-auto" />
       </div>
       <p class="lead text-secondary mx-auto" style="max-width: 70%">
-        Get to know more about Dr. Ronald Keng'ara Tombe, a distinguished leader
-        in Artificial Intelligence and Sustainable Agriculture, whose mission is
-        to blend technological innovation with environmental responsibility.
+        Dr.Ronald Tombe is a distinguished leader in Artificial Intelligence and Sustainable Agriculture, 
+        dedicated to integrating technological innovation with environmental stewardship. His impressive 
+        qualifications include a Postdoctoral Fellowship (2024) from the University of Pretoria, a Doctor 
+        of Philosophy in Computer Science (2021) from the University of KwaZulu-Natal, a Master of Science 
+        in Software Engineering (2015) from Jomo Kenyatta University of Agriculture and Technology, and a 
+        Bachelor of Science in Information Technology (2009) from the same institution.
       </p>
     </section>
-    <!-- Know Me More Section End -->
 
-    <!-- Tab Section Start -->
     <section id="about-section" class="mt-5">
       <ul
         class="nav nav-tabs justify-content-center border-0"
@@ -111,7 +109,7 @@ import Navbar from "@/components/Navbar.vue";
             aria-controls="goals"
             aria-selected="false"
           >
-            Current Endeavors and Future Goals
+           Research Publication
           </button>
         </li>
       </ul>
@@ -124,28 +122,17 @@ import Navbar from "@/components/Navbar.vue";
         >
           <div class="row align-items-center">
             <div class="col-md-6 lead text-secondary">
-              <p>
-                Dr. Ronald Keng'ara Tombe, a renowned Computer Science PhD
-                graduate from the University of KwaZulu-Natal, South Africa,
-                combines his artificial intelligence (AI) expertise with a deep
-                commitment to sustainable agriculture and economic empowerment.
-                His roles extend beyond academia, as evidenced by his positions
-                as Vice-president of UKZN's International Student Association
-                (ISA), co-founder of AI AA NGO, and currently the Program
-                Coordinator at the Africa Institute of Indigenous Knowledge
-                Systems (AIIKS), Kisii University chapter. More about AIIKS can
-                be found at their website:
-                <a
-                  href="https://aiiks.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >https://aiiks.org/</a
-                >
-              </p>
-            </div>
+                <p>
+                  Dr. Ronald Keng'ara Tombe is a renowned Computer Science PhD
+                  graduate from the University of KwaZulu-Natal. 
+                  He is a Lecturer in the <a href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team" target="_blank" class="text-decoration-none">Department of Computing Sciences at Kisii University</a> and a Research Fellow at <a href="https://scholar.google.com/citations?user=SpAdUDYAAAAJ&hl=en" target="_blank" class="text-decoration-none">Future Africa, University of Pretoria</a>. 
+                  As the Director of Programs at <a href="https://aiiks.org/" target="_blank" class="text-decoration-none">AIIKS Kisii University chapter</a>, he actively promotes AI integration in research and industry. 
+                  Additionally, he co-founded the <a href="http://aiaa-kenya.org/" target="_blank" class="text-decoration-none">Artificial Intelligence Alliance in Agriculture (AIAA)</a>, focusing on innovative AI-driven solutions to empower agricultural communities.
+                </p>
+              </div>
             <div class="col-md-6">
               <img
-                src="@/assets/bg3.jpg"
+                src="@/assets/images/about.jpg"
                 alt="About Dr. Tombe"
                 class="img-fluid rounded"
               />
@@ -194,24 +181,32 @@ import Navbar from "@/components/Navbar.vue";
         >
           <div class="row align-items-center">
             <div class="col-md-6 lead text-secondary">
-              <p>
-                As a lecturer in the Department of Computer Science at Kisii
-                University, Kenya, Dr. Tombe continues to mentor research teams
-                in AI, software engineering, big data analytics, and machine
-                learning. His overarching aim is to harness AI for sustainable
-                agricultural practices that foster economic growth and
-                environmental stewardship.
-              </p>
-              <a
-                href="/about"
-                class="btn btn-outline-secondary w-50 w-lg-25 mb-3"
-                style="border-radius: 20px"
-                >Read More</a
-              >
-            </div>
+            <p>
+              Dr. Ronald Keng'ara Tombe is a distinguished researcher in computer vision, artificial intelligence, and software engineering, with a focus on sustainable agriculture and digitalization. His notable works include:
+              <ul>
+                <li>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:W7OEmFMy1HYC" target="_blank" class="text-decoration-none">
+                    "Computer Vision for Smart Farming and Sustainable Agriculture" (IST-Africa Conference, 2020)
+                  </a> which explores innovative applications of computer vision in agriculture.
+                </li>
+                <li>
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:WF5omc3nYNoC" target="_blank" class="text-decoration-none">
+                    "Effective Processing of Convolutional Neural Networks for Computer Vision: A Tutorial and Survey" (IETE Technical Review, 2022)
+                  </a> providing a comprehensive survey on CNNs.
+                </li>
+              </ul>
+            </p>
+            <a
+              href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
+              class="btn btn-outline-secondary w-50 w-lg-25 mb-3"
+              style="border-radius: 20px"
+              >Read More</a
+            >
+          </div>
+
             <div class="col-md-6">
               <img
-                src="@/assets/bg2.jpg"
+                src="@/assets/images/bg7.jpg"
                 alt="Current Endeavors and Future Goals"
                 class="img-fluid rounded"
               />

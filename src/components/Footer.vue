@@ -52,7 +52,7 @@
           <hr class="bg-warning w-25" />
           <ul class="list-unstyled">
             <li>
-              <i class="bi bi-geo-alt me-2"></i>P.O.Box 12345-00100, Nairobi,
+              <i class="bi bi-geo-alt me-2"></i>P.O.Box 3183-40200, Kisii,
               Kenya
             </li>
             <li><i class="bi bi-telephone me-2"></i>+254-710-791-596</li>
@@ -69,13 +69,13 @@
             <a href="#" class="text-white text-decoration-none me-3"
               ><i class="bi bi-facebook"></i
             ></a>
-            <a href="#" class="text-white text-decoration-none me-3"
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fronaldtombe" class="text-white text-decoration-none me-3"
               ><i class="bi bi-twitter"></i
             ></a>
             <a href="#" class="text-white text-decoration-none me-3"
               ><i class="bi bi-instagram"></i
             ></a>
-            <a href="#" class="text-white text-decoration-none"
+            <a href="https://www.linkedin.com/in/ronald-tombe-9576385b/" class="text-white text-decoration-none"
               ><i class="bi bi-linkedin"></i
             ></a>
           </div>

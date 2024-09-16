@@ -6,16 +6,24 @@ import Footer from "@/components/Footer.vue";
   <header>
     <Navbar />
   </header>
-  <div class="container mx-auto px-5 my-5">
+  <div class="container mx-auto px-4 my-5">
     <!-- Hero Section -->
     <section class="text-center py-5">
       <h1 class="display-4 fw-bold text-primary mb-4">
         Research Contributions
       </h1>
       <p class="lead text-muted mb-4">
-        Discover my research journey and current projects as a lecturer at Kisii
-        University and beyond.
+        Discover my research journey as a research fellow at Future Africa, 
+        University of Pretoria and beyond.
       </p>
+      <a
+            href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
+            class="btn btn-outline-primary mb-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore My Research
+          </a>
     </section>
 
     <!-- Research Sections -->
@@ -23,18 +31,15 @@ import Footer from "@/components/Footer.vue";
       <div class="row align-items-center">
         <div class="col-md-6">
           <h2 class="fw-bold text-secondary mb-3">
-            Research @ University of Pretoria
+            Remote sensing image scene classification: Advances and open challenges
           </h2>
           <p class="lead text-secondary">
-            As a Research Fellow in Inclusive Agricultural Transformation at the
-            University of Pretoria, I conduct transdisciplinary research on
-            ICT4D in the digitalization of the Agricultural value chain. My work
-            focuses on innovations and scaling of digital systems to enhance
-            productivity, knowledge preservation, and incomes of indigenous
-            communities.
-          </p>
+            Deep learning approaches are gaining popularity in image feature analysis and in attaining state-of-the-art performances in 
+            scene classification of remote sensing imagery. This article presents a comprehensive review of the developments
+             of various computer vision methods in remote sensing...
+            </p>
           <a
-            href="https://www.futureafrica.science/ronald"
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:UebtZRa9Y70C"
             class="btn btn-primary mb-3"
             target="_blank"
             rel="noopener noreferrer"
@@ -55,15 +60,17 @@ import Footer from "@/components/Footer.vue";
     <section class="mb-5">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <h2 class="fw-bold text-secondary mb-3">Research @ Rutgers</h2>
+          <h2 class="fw-bold text-secondary mb-3">Society 5.0-inspired digitalization framework 
+            for resilient and sustainable agriculture</h2>
           <p class="lead text-secondary">
-            From 2009 to 2015, my research at Rutgers focused on evaluating
-            Reinforcement Learning algorithms and the challenges associated with
-            using pre-collected/batch data. My work also spans various aspects
-            of data science, contributing to advancements in the field.
+            This research paper proposes a digitalization framework based on Society
+            5.0 principles for promoting resilient and sustainable agricultural value
+            chains in the context of climate change. Climate change is affecting the
+            productivity and sustainability of agricultural systems and threatening
+            food security in many parts of the world... 
           </p>
           <a
-            href="https://www.rutgers.edu/research"
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:5nxA0vEk-isC"
             class="btn btn-primary mb-3"
             target="_blank"
             rel="noopener noreferrer"
@@ -80,6 +87,16 @@ import Footer from "@/components/Footer.vue";
         </div>
       </div>
     </section>
+    <div class="text-center">
+  <a
+    href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
+    class="btn btn-outline-primary mb-3"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    See More
+  </a>
+</div>
 
     <!-- Quote Section -->
     <section class="text-center py-5">

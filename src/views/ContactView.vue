@@ -110,17 +110,6 @@ const submitForm = async (event) => {
             >
             </iframe>
           </div>
-
-          <!-- Display loading or events -->
-          <div v-if="isLoading">Loading events...</div>
-          <div v-else>
-            <h2>Upcoming Events</h2>
-            <ul>
-              <li v-for="event in upcomingEvents" :key="event.id">
-                {{ event.title }} - {{ event.date }}
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

@@ -8,24 +8,42 @@ import Footer from "@/components/Footer.vue";
     <Navbar />
   </header>
 
-  <section
-    class="hero-section d-flex flex-column justify-content-center align-items-center text-white"
-    style="
-      background: url(&quot;../src/assets/bg.jpg&quot;) no-repeat center center;
-      background-size: cover;
-      background-color: rgba(0, 0, 0, 0.3);
-      position: relative;
-    "
-  >
-    <div class="overlay"></div>
-    <!-- Overlay to enhance text visibility -->
-    <div class="content text-center mx-auto">
-      <h1 class="display-3 font-weight-bold">About</h1>
-      <p class="lead">
-        AI expert and PhD graduate, integrates artificial intelligence with
-        sustainable agriculture. As a leader and educator, he drives innovation
-        to empower marginalized communities and enhance agricultural practices.
-      </p>
+  <!-- Hero Section with Bootstrap Carousel -->
+  <section class="hero-section position-relative">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+      </div>
+
+      <!-- Carousel slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="@/assets/images/bg.jpg" class="d-block w-100" alt="First Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="@/assets/images/bg1.jpg" class="d-block w-100" alt="Second Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="@/assets/images/bg6.jpg" class="d-block w-100" alt="Third Slide">
+        </div>
+        <div class="carousel-item">
+          <img src="@/assets/images/bg8.jpg" class="d-block w-100" alt="Fourth Slide">
+        </div>
+      </div>
+
+      <!-- Carousel controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
 
@@ -39,43 +57,44 @@ import Footer from "@/components/Footer.vue";
         />
       </div>
       <div class="col-md-7">
-        <h2 class="mb-4">About Dr. Tombe</h2>
-        <p class="mb-3">
-          Dr. Ronald Keng'ara Tombe is a distinguished Computer Science PhD
-          graduate from the University of KwaZulu-Natal, South Africa. His work
-          combines AI expertise with a passion for sustainable agriculture and
-          economic empowerment.
-        </p>
-        <div class="mb-3">
-          <div class="d-flex align-items-start mb-2">
-            <i class="bi bi-person-badge-fill text-primary me-2 fs-4"></i>
-            <span
-              >Vice-president of UKZN's International Student Association
-              (ISA).</span
-            >
-          </div>
-          <div class="d-flex align-items-start mb-2">
-            <i class="bi bi-people-fill text-success me-2 fs-4"></i>
-            <span
-              >Co-founder of AI AA NGO, focusing on tech solutions for
-              communities.</span
-            >
-          </div>
-          <div class="d-flex align-items-start mb-2">
-            <i class="bi bi-diagram-3-fill text-warning me-2 fs-4"></i>
-            <span>Program Coordinator at AIIKS, Kisii University chapter.</span>
-          </div>
-          <p>
-            Discover more about AIIKS and Dr. Tombe's contributions at the
-            <a
-              href="https://aiiks.org/"
-              target="_blank"
-              class="text-decoration-none"
-              >AIIKS website</a
-            >.
-          </p>
-        </div>
-      </div>
+  <h2 class="mb-4">About Dr. Tombe</h2>
+  <p class="mb-3">
+    Dr. Ronald Keng'ara Tombe is a leading expert in computing sciences and artificial intelligence, with a strong focus on sustainable agriculture and community empowerment.
+  </p>
+  <div class="mb-3">
+    <div class="d-flex align-items-start mb-2">
+      <i class="bi bi-person-circle text-primary me-2 fs-4"></i>
+      <span>
+        Lecturer in the <a href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team" target="_blank" class="text-decoration-none">Department of Computing Sciences at Kisii University</a>.
+      </span>
+    </div>
+    <div class="d-flex align-items-start mb-2">
+      <i class="bi bi-file-earmark-person text-success me-2 fs-4"></i>
+      <span>
+        Research Fellow (2022-2024) at <a href="https://scholar.google.com/citations?user=SpAdUDYAAAAJ&hl=en" target="_blank" class="text-decoration-none">Future Africa, University of Pretoria</a>.
+      </span>
+    </div>
+    <div class="d-flex align-items-start mb-2">
+      <i class="bi bi-briefcase text-warning me-2 fs-4"></i>
+      <span>
+        Director of Programs at the <a href="https://aiiks.org/" target="_blank" class="text-decoration-none">AIIKS Kisii University chapter</a>.
+      </span>
+    </div>
+    <div class="d-flex align-items-start mb-2">
+      <i class="bi bi-lightbulb text-primary me-2 fs-4"></i>
+      <span>
+        Co-founder of the <a href="http://aiaa-kenya.org/" target="_blank" class="text-decoration-none">Artificial Intelligence Alliance in Agriculture (AIAA)</a>, focusing on innovative tech solutions for agricultural communities.
+      </span>
+    </div>
+    <div class="d-flex align-items-start mb-2">
+      <i class="bi bi-person-check text-success me-2 fs-4"></i>
+      <span>
+        Vice-president of UKZN's International Student Association (ISA).
+      </span>
+    </div>
+  </div>
+</div>
+
     </div>
 
     <div class="row mb-5 align-items-center">
@@ -130,44 +149,6 @@ import Footer from "@/components/Footer.vue";
       </div>
     </div>
 
-    <div class="row mb-5 align-items-center">
-      <div class="col-md-6 text-center">
-        <img
-          src="@/assets/tombe.jpg"
-          alt="Illustration of Role and Impact"
-          class="img-fluid rounded shadow-sm"
-        />
-      </div>
-      <div class="col-md-6">
-        <h2>Role at AIIKS and Impact</h2>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item d-flex align-items-center">
-            <i class="bi bi-check-circle-fill text-success me-2"></i>
-            Coordinating AIIKS activities at Kisii University.
-          </li>
-          <li class="list-group-item d-flex align-items-center">
-            <i class="bi bi-check-circle-fill text-success me-2"></i>
-            Initiating collaborative research projects that bridge various
-            expertise and perspectives.
-          </li>
-          <li class="list-group-item d-flex align-items-center">
-            <i class="bi bi-check-circle-fill text-success me-2"></i>
-            Crafting grant proposals and managing projects for sustainable
-            success.
-          </li>
-          <li class="list-group-item d-flex align-items-center">
-            <i class="bi bi-check-circle-fill text-success me-2"></i>
-            Representing Kisii University in executive meetings of AIIKS
-            consortium partners.
-          </li>
-          <li class="list-group-item d-flex align-items-center">
-            <i class="bi bi-check-circle-fill text-success me-2"></i>
-            Delivering periodic reports to stakeholders to ensure transparency
-            and alignment with goals.
-          </li>
-        </ul>
-      </div>
-    </div>
 
     <div class="row mb-5 p-4 bg-light rounded shadow-sm">
       <div class="col-md-4 text-center">
@@ -210,7 +191,7 @@ import Footer from "@/components/Footer.vue";
               <i class="bi bi-graph-up"></i>
             </div>
             <div class="timeline-content">
-              <h5 class="mb-2 text-success">Leveraging AI for Agriculture</h5>
+              <h5 class="mb-2 text-primary">Leveraging AI for Agriculture</h5>
               <p class="text-muted">
                 His aim is to utilize AI for sustainable agricultural practices
                 that foster economic growth and environmental stewardship,
@@ -223,7 +204,7 @@ import Footer from "@/components/Footer.vue";
               <i class="bi bi-globe"></i>
             </div>
             <div class="timeline-content">
-              <h5 class="mb-2 text-info">Global Outreach and Collaboration</h5>
+              <h5 class="mb-2 text-primary">Global Outreach and Collaboration</h5>
               <p class="text-muted">
                 Dr. Tombe is dedicated to expanding his impact through global
                 partnerships, bringing innovative AI solutions to agriculture
@@ -248,14 +229,15 @@ import Footer from "@/components/Footer.vue";
 
 <style scoped>
 .hero-section {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 60vh;
-  padding: 2rem;
-  color: #ffffff;
+  height: 70vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .overlay {
