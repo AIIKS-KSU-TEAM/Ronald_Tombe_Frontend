@@ -120,13 +120,22 @@ import Navbar from "@/components/Navbar.vue";
         >
           <div class="row align-items-center">
             <div class="col-md-6 lead text-secondary">
-                <p>
-                  Dr. Ronald Keng'ara Tombe is a renowned Computer Science PhD
-                  graduate from the University of KwaZulu-Natal. 
-                  He is a Lecturer in the <a href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team" target="_blank" class="text-decoration-none">Department of Computing Sciences at Kisii University</a> and a Research Fellow at <a href="https://scholar.google.com/citations?user=SpAdUDYAAAAJ&hl=en" target="_blank" class="text-decoration-none">Future Africa, University of Pretoria</a>. 
-                  As the Director of Programs at <a href="https://aiiks.org/" target="_blank" class="text-decoration-none">AIIKS Kisii University chapter</a>, he actively promotes AI integration in research and industry. 
-                  Additionally, he co-founded the <a href="http://aiaa-kenya.org/" target="_blank" class="text-decoration-none">Artificial Intelligence Alliance in Agriculture (AIAA)</a>, focusing on innovative AI-driven solutions to empower agricultural communities.
-                </p>
+              <p>
+                Dr. Ronald Keng'ara Tombe is a lecturer in the 
+                <a href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team" 
+                target="_blank" class="text-decoration-none">Department of Computing Sciences at Kisii University
+              </a> since 2015. He is a Research Fellow (2022-2024) at 
+              <a href="https://www.futureafrica.science/ronald" target="_blank" class="text-decoration-none">Future 
+                Africa, University of Pretoria</a>, Director of Programs at the <a href="https://aiiks.org/" 
+                target="_blank" class="text-decoration-none">AIIKS, Kisii University chapter</a>
+                 and the Chairperson of the Kenyan NGO, 
+                <a href="http://aiaa-kenya.org/" target="_blank" class="text-decoration-none">Artificial 
+                  Intelligence Alliance in Agriculture (AIAA)</a>. His research covers artificial intelligence, 
+                  computer vision, machine learning, and human-centered interaction, focusing on software solutions 
+                  that enhance agricultural extension services in climate action and resilience.
+              </p>
+
+
               </div>
             <div class="col-md-6">
               <img

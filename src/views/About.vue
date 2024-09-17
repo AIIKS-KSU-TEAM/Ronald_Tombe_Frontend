@@ -22,13 +22,13 @@ import Footer from "@/components/Footer.vue";
     <!-- Carousel slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/images/bg.jpg" class="d-block w-100 img-fluid" alt="First Slide" style="max-height: 500px; object-fit: cover;">
+        <img src="@/assets/images/bg2.jpg" class="d-block w-100 img-fluid" alt="First Slide" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/images/bg1.jpg" class="d-block w-100 img-fluid" alt="Second Slide" style="max-height: 500px; object-fit: cover;">
+        <img src="@/assets/images/bg6.jpg" class="d-block w-100 img-fluid" alt="Second Slide" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/images/bg6.jpg" class="d-block w-100 img-fluid" alt="Third Slide" style="max-height: 500px; object-fit: cover;">
+        <img src="@/assets/images/bg.jpg" class="d-block w-100 img-fluid" alt="Third Slide" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
         <img src="@/assets/images/bg8.jpg" class="d-block w-100 img-fluid" alt="Fourth Slide" style="max-height: 500px; object-fit: cover;">
@@ -71,7 +71,7 @@ import Footer from "@/components/Footer.vue";
     <div class="d-flex align-items-start mb-2">
       <i class="bi bi-file-earmark-person text-success me-2 fs-4"></i>
       <span>
-        Research Fellow (2022-2024) at <a href="https://scholar.google.com/citations?user=SpAdUDYAAAAJ&hl=en" target="_blank" class="text-decoration-none">Future Africa, University of Pretoria</a>.
+        Research Fellow (2022-2024) at <a href="https://www.futureafrica.science/ronald" target="_blank" class="text-decoration-none">Future Africa, University of Pretoria</a>.
       </span>
     </div>
     <div class="d-flex align-items-start mb-2">

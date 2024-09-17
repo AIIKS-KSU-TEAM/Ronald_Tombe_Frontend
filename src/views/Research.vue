@@ -10,7 +10,7 @@ import Footer from "@/components/Footer.vue";
     <!-- Hero Section -->
     <section class="text-center py-5">
       <h1 class="display-4 fw-bold text-primary mb-4">
-        Research Contributions
+        Research Workshops
       </h1>
       <p class="lead text-muted mb-4">
         Discover my research journey as a research fellow at Future Africa, 
@@ -27,6 +27,35 @@ import Footer from "@/components/Footer.vue";
     </section>
 
     <!-- Research Sections -->
+    <section class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="fw-bold text-secondary mb-3">Society 5.0-inspired digitalization framework 
+            for resilient and sustainable agriculture</h2>
+          <p class="lead text-secondary">
+            Enterprise architectures provide a structured framework for designing and managing 
+            complex organisational systems. In the context of agricultural food chains, 
+            integrating artificial intelligence (AI) can enhance the capabilities of complex 
+            adaptive systems in Agriculture (CASA)... 
+          </p>
+          <a
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:8k81kl-MbHgC"
+            class="btn btn-primary mb-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View My Work
+          </a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img
+            src="@/assets/images/dl.jpg"
+            alt="Rutgers Research"
+            class="img-fluid rounded shadow-sm"
+          />
+        </div>
+      </div>
+    </section>
     <section class="mb-5">
       <div class="row align-items-center">
         <div class="col-md-6">
@@ -57,36 +86,6 @@ import Footer from "@/components/Footer.vue";
       </div>
     </section>
 
-    <section class="mb-5">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h2 class="fw-bold text-secondary mb-3">Society 5.0-inspired digitalization framework 
-            for resilient and sustainable agriculture</h2>
-          <p class="lead text-secondary">
-            This research paper proposes a digitalization framework based on Society
-            5.0 principles for promoting resilient and sustainable agricultural value
-            chains in the context of climate change. Climate change is affecting the
-            productivity and sustainability of agricultural systems and threatening
-            food security in many parts of the world... 
-          </p>
-          <a
-            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:5nxA0vEk-isC"
-            class="btn btn-primary mb-3"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View My Work
-          </a>
-        </div>
-        <div class="col-md-6 text-center">
-          <img
-            src="@/assets/research.jpg"
-            alt="Rutgers Research"
-            class="img-fluid rounded shadow-sm"
-          />
-        </div>
-      </div>
-    </section>
     <div class="text-center">
   <a
     href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
