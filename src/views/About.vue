@@ -10,42 +10,42 @@ import Footer from "@/components/Footer.vue";
 
   <!-- Hero Section with Bootstrap Carousel -->
   <section class="hero-section position-relative">
-    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
-      </div>
-
-      <!-- Carousel slides -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="@/assets/images/bg.jpg" class="d-block w-100" alt="First Slide">
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/images/bg1.jpg" class="d-block w-100" alt="Second Slide">
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/images/bg6.jpg" class="d-block w-100" alt="Third Slide">
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/images/bg8.jpg" class="d-block w-100" alt="Fourth Slide">
-        </div>
-      </div>
-
-      <!-- Carousel controls -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
     </div>
-  </section>
+
+    <!-- Carousel slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="@/assets/images/bg.jpg" class="d-block w-100 img-fluid" alt="First Slide" style="max-height: 500px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/images/bg1.jpg" class="d-block w-100 img-fluid" alt="Second Slide" style="max-height: 500px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/images/bg6.jpg" class="d-block w-100 img-fluid" alt="Third Slide" style="max-height: 500px; object-fit: cover;">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/images/bg8.jpg" class="d-block w-100 img-fluid" alt="Fourth Slide" style="max-height: 500px; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- Carousel controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
 
   <section class="container my-5">
     <div class="row mb-5 align-items-center">
@@ -230,8 +230,20 @@ import Footer from "@/components/Footer.vue";
 <style scoped>
 .hero-section {
   height: 70vh;
-  width: 100vw;
+  width: 99vw;
   overflow: hidden;
+}
+@media (max-width: 767.98px) {
+  .hero-section {
+    height: 40vh;
+    overflow: hidden;
+  }
+
+  .hero-section .carousel-item img {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 .carousel-item img {

@@ -9,8 +9,8 @@ const isNavbarCollapsed = ref(true);
     class="navbar navbar-expand-md navbar-light"
     style="background-color: #f8f9fa"
   >
-    <div class="container" style="max-width: 90%">
-      <a class="navbar-brand me-auto" href="/">
+    <div class="container" style="max-width: 95%">
+      <a class="navbar-brand me-auto" href="/home">
         <!-- Contact link positioned on the far left -->
         <img
           src="@/assets/logo1.png"
@@ -32,7 +32,7 @@ const isNavbarCollapsed = ref(true);
         :class="['collapse', 'navbar-collapse', { show: !isNavbarCollapsed }]"
         id="navbarNav"
       >
-        <ul class="navbar-nav mx-auto text-center">
+        <ul class="navbar-nav mx-auto">
           <!-- Centered Navbar Links -->
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
