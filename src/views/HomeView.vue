@@ -93,7 +93,7 @@ import Navbar from "@/components/Navbar.vue";
             aria-controls="awards"
             aria-selected="false"
           >
-            Awards and Events
+            Workshops and Summits
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -111,7 +111,7 @@ import Navbar from "@/components/Navbar.vue";
           </button>
         </li>
       </ul>
-      <div class="tab-content p-4" id="drTombeTabContent">
+      <div class="tab-content p-3" id="drTombeTabContent">
         <div
           class="tab-pane fade show active"
           id="about"
@@ -152,25 +152,29 @@ import Navbar from "@/components/Navbar.vue";
           role="tabpanel"
           aria-labelledby="awards-tab"
         >
-          <div class="row align-items-center">
-            <div class="col-md-6 lead text-secondary">
+        <div class="row align-items-center">
+          <div class="col-md-6 lead text-secondary">
               <ul>
-                <li>
-                  Won a grant from the Carnegie Corporation of New York through
-                  the Future Africa of the University of Pretoria, as a Research
-                  Fellow
-                </li>
-                <li>
-                  Tuition-paid Scholarship for PhD studies by the University of
-                  KwaZulu-Natal, South Africa.
-                </li>
-                <li>Big Data and AI by Ronald Tombe. #DevfestKisii 2023</li>
-                <li>
-                  Ronald Tombe: "The future of Agriculture lies in the use of
-                  Artificial Intelligence"
-                </li>
+                  <li>
+                      <a href="https://youtu.be/Vp7L-gWa7dg" target="_blank">
+                          International Colloquium on Indigenous Languages (Feb 20-21, 2024, Sheraton Hotel, Dar es Salaam, Tanzania)
+                      </a> – Focus: Integrating digital and artistic youth skills to promote indigenous multilingualism for sustainable futures. 
+                      Jointly hosted by <a href="https://aiiks.org/" 
+                      target="_blank" class="text-decoration-none">AIIKS</a> and the <a href="https://www.sabdf.org.za/partners/africa-forum/">(Africa Forum).</a>
+                  </li>
+                  <li>
+                      <a href="https://deeplearningindaba.com/2024/workshops/" target="_blank">
+                          Deep Learning Indaba 2024 (Sep 1-6th, 2024, Dakar, Senegal)
+                      </a> – The annual meeting of the African AI community aimed at strengthening AI across the continent on the following themes:
+                      <ul>
+                          <li>Robot Learning for Africa Workshop – Empowering African voices in AI through data, models, and innovation.</li>
+                          <li>Uniting for a Climate-Resilient Africa – Promoting climate data and knowledge exchange for resilience.</li>
+                      </ul>
+                  </li>
               </ul>
-            </div>
+          </div>
+
+
             <div class="col-md-6">
               <img
                 src="@/assets/bg.jpg"
@@ -192,14 +196,14 @@ import Navbar from "@/components/Navbar.vue";
               Dr. Ronald Keng'ara Tombe is a distinguished researcher in computer vision, artificial intelligence, and software engineering, with a focus on sustainable agriculture and digitalization. His notable works include:
               <ul>
                 <li>
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:W7OEmFMy1HYC" target="_blank" class="text-decoration-none">
-                    "Computer Vision for Smart Farming and Sustainable Agriculture" (IST-Africa Conference, 2020)
-                  </a> which explores innovative applications of computer vision in agriculture.
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:0EnyYjriUFMC" target="_blank" class="text-decoration-none">
+                    "Agricultural social networks: An agricultural value chain-based digitalization framework for an inclusive digital economy"
+                  </a> Sustainable agriculture is the backbone of food security systems and a driver of human well-being in global economic development (Sustainable Development Goal SDG 3)...
                 </li>
                 <li>
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:WF5omc3nYNoC" target="_blank" class="text-decoration-none">
-                    "Effective Processing of Convolutional Neural Networks for Computer Vision: A Tutorial and Survey" (IETE Technical Review, 2022)
-                  </a> providing a comprehensive survey on CNNs.
+                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:_FxGoFyzp5QC" target="_blank" class="text-decoration-none">
+                    "Adaptive deep co-occurrence feature learning based on classifier-fusion for remote sensing scene classification"
+                  </a> Remote sensing scene classification has numerous applications on land cover land use...
                 </li>
               </ul>
             </p>
