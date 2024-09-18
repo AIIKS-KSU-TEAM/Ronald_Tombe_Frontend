@@ -30,7 +30,7 @@ const {
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 blog">
     <div class="col mx-auto">
         <div class="card">
-            <img src="@/assets/images/card1.jpg" class="card-img-top" alt="...">
+            <img src="@/assets/images/card11.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title">Product development | Agricultural digital extension advisory services</h4>
                 <p class="card-text text-muted">Design and develop AI digital apps for the provision of digital extension advisory services and technologies linking farmers...</p>
@@ -58,7 +58,7 @@ const {
 
     <div class="col mx-auto">
         <div class="card" >
-            <img src="@/assets/images/card3.jpg" class="card-img-top" alt="...">
+            <img src="@/assets/images/card33.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title">Technology could herald a journey to justice for farmers</h4>
                 <p class="card-text text-muted">Dr Ronald Tombe's <a href="https://www.linkedin.com/feed/hashtag/?keywords=farleaf&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7135192741273047041"> #farleaf</a> research is featured in the award-winning University of Pretoria’s (UP) http://RE.SEARCH magazine...</p>
@@ -71,7 +71,7 @@ const {
     </div>
     <div class="col mx-auto">
         <div class="card">
-            <img src="@/assets/images/card4.jpg" class="card-img-top" alt="...">
+            <img src="@/assets/images/card44.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title">Hope gleams in the form of digital transformation</h4>
                 <p class="card-text text-muted">Ronald Tombe's research project will arm them with digital tools, i.e. easier-to-use software solutions, to enhance their productivity and strengthen Africa's food system amid climate unpredictabilities...</p>
@@ -85,7 +85,7 @@ const {
 
     <div class="col mx-auto">
         <div class="card">
-            <img src="@/assets/images/card5.jpg" class="card-img-top" alt="...">
+            <img src="@/assets/images/card55.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title">Research | Society 5.0-Inspired Digitalization Framework for Resilient and Sustainable Agriculture</h4>
                 <p class="card-text text-muted">This research paper proposes a digitalization framework based on Society 5.0 principles for promoting resilient and sustainable...</p>
@@ -99,7 +99,7 @@ const {
 
     <div class="col mx-auto">
         <div class="card" >
-            <img src="@/assets/images/card6.jpg" class="card-img-top" alt="...">
+            <img src="@/assets/images/card66.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title">Research| Agricultural Social Networks: An Agricultural Value Chain-Based Digitalization Framework for an Inclusive Digital Economy</h4>
                 <p class="card-text text-muted">Sustainable agriculture...</p>

@@ -60,15 +60,15 @@ import Footer from "@/components/Footer.vue";
       <div class="row align-items-center">
         <div class="col-md-6">
           <h2 class="fw-bold text-secondary mb-3">
-            Remote sensing image scene classification: Advances and open challenges
+            AI for Complex Adaptive Systems in Agric-Food Chains: Enterprise Architecture Perspectives
           </h2>
           <p class="lead text-secondary">
-            Deep learning approaches are gaining popularity in image feature analysis and in attaining state-of-the-art performances in 
-            scene classification of remote sensing imagery. This article presents a comprehensive review of the developments
-             of various computer vision methods in remote sensing...
+            Enterprise architectures provide a structured framework for designing and managing complex 
+            organisational systems. In the context of agricultural food chains, integrating artificial 
+            intelligence (AI) can enhance the capabilities of complex adaptive systems in Agriculture (CASA)....
             </p>
           <a
-            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:UebtZRa9Y70C"
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:8k81kl-MbHgC"
             class="btn btn-primary mb-3"
             target="_blank"
             rel="noopener noreferrer"
