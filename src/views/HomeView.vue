@@ -156,7 +156,7 @@ import Navbar from "@/components/Navbar.vue";
           <div class="col-md-6 lead text-secondary">
               <ul>
                   <li>
-                      <a href="https://youtu.be/Vp7L-gWa7dg" target="_blank">
+                      <a href="https://youtu.be/EQu5euwif70?si=JqNEq76V1e4AIXfO" target="_blank">
                           International Colloquium on Indigenous Languages (Feb 20-21, 2024, Sheraton Hotel, Dar es Salaam, Tanzania)
                       </a> – Focus: Integrating digital and artistic youth skills to promote indigenous multilingualism for sustainable futures. 
                       Jointly hosted by <a href="https://aiiks.org/" 
