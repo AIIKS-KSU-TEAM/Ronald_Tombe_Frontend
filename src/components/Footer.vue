@@ -8,7 +8,7 @@
         <!-- Footer Items -->
         <div class="col-md-3 mb-3">
           <img
-            src="@/assets/logo.png"
+            src="@/assets/images/logo.png"
             class="img-fluid rounded"
             alt="AI AA NGO"
           />

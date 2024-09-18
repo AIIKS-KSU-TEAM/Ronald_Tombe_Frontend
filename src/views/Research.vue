@@ -78,7 +78,7 @@ import Footer from "@/components/Footer.vue";
         </div>
         <div class="col-md-6 text-center">
           <img
-            src="@/assets/bg4.jpg"
+            src="@/assets/images/bg4.jpg"
             alt="University of Pretoria Research"
             class="img-fluid rounded shadow-sm"
           />

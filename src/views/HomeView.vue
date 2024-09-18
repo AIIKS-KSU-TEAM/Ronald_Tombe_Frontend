@@ -177,7 +177,7 @@ import Navbar from "@/components/Navbar.vue";
 
             <div class="col-md-6">
               <img
-                src="@/assets/bg.jpg"
+                src="@/assets/images/bg.jpg"
                 alt="Awards and Events"
                 class="img-fluid rounded"
               />

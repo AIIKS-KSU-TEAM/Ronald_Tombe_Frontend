@@ -1,41 +1,9 @@
 <script setup>
-import { ref } from "vue";
-import { useEvents } from "@/composables/useEvents";
-import axios from "axios";
-import Navbar from "@/components/Navbar.vue";
-import Footer from "@/components/Footer.vue";
+import { useContactForm } from '@/composables/useContactForm';
+import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
 
-// Use the composable to handle events fetching
-const { recentHighlights, upcomingEvents, isLoading, errorMessage } = useEvents();
-
-const name = ref("");
-const email = ref("");
-const message = ref("");
-const formMessage = ref("");
-const alertType = ref("");
-
-const submitForm = async (event) => {
-  event.preventDefault();
-
-  try {
-    await axios.post("http://127.0.0.1:8000/api/contact/", {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    });
-
-    formMessage.value = "Your message has been sent successfully!";
-    alertType.value = "alert-success";
-
-    name.value = "";
-    email.value = "";
-    message.value = "";
-  } catch (error) {
-    formMessage.value =
-      "There was an error sending your message. Please try again.";
-    alertType.value = "alert-danger";
-  }
-};
+const { name, email, message, formMessage, alertType, submitForm } = useContactForm();
 </script>
 
 <template>
@@ -105,7 +73,7 @@ const submitForm = async (event) => {
               width="100%"
               height="300"
               style="border-radius: 5px"
-              allowfullscreen=""
+              allowfullscreen
               loading="lazy"
             >
             </iframe>

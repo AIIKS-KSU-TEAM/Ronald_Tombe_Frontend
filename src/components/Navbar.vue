@@ -13,7 +13,7 @@ const isNavbarCollapsed = ref(true);
       <a class="navbar-brand me-auto" href="/home">
         <!-- Contact link positioned on the far left -->
         <img
-          src="@/assets/logo1.png"
+          src="@/assets/images/logo1.png"
           class="img-fluid rounded"
           alt="Ronald Tombe"
         />

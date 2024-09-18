@@ -51,7 +51,7 @@ import Footer from "@/components/Footer.vue";
     <div class="row mb-5 align-items-center">
       <div class="col-md-5 text-center">
         <img
-          src="@/assets/ron.png"
+          src="@/assets/images/ron.png"
           alt="Dr. Ronald Keng'ara Tombe"
           class="img-fluid rounded shadow-sm mb-4"
         />
@@ -142,7 +142,7 @@ import Footer from "@/components/Footer.vue";
       </div>
       <div class="col-md-6 text-center">
         <img
-          src="@/assets/bg3.jpg"
+          src="@/assets/images/bg3.jpg"
           alt="Research and AI Innovations"
           class="img-fluid rounded shadow-sm"
         />
@@ -216,7 +216,7 @@ import Footer from "@/components/Footer.vue";
       </div>
       <div class="col-md-5 d-flex justify-content-center align-items-center">
         <img
-          src="@/assets/dev.jpg"
+          src="@/assets/images/dev.jpg"
           alt="Future Goals"
           class="img-fluid rounded shadow"
         />
