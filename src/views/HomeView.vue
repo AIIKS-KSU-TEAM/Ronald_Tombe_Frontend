@@ -55,10 +55,10 @@ import Navbar from "@/components/Navbar.vue";
         <hr class="w-25 mx-auto" />
       </div>
       <p class="lead text-secondary mx-auto" style="max-width: 95%"> 
-        Dr. Ronald Tombe holds a Postdoctoral Fellowship (2024) from the University of Pretoria, 
-        a Doctor of Philosophy in Computer Science (2021) from the University of KwaZulu-Natal, 
-        a Master of Science in Software Engineering (2015) from Jomo Kenyatta University of 
-        Agriculture and Technology, and a Bachelor of Science in Information Technology (2009) 
+        Dr. Ronald Tombe holds a Postdoctoral Fellowship from the University of Pretoria, 
+        a Doctor of Philosophy in Computer Science from the University of KwaZulu-Natal, 
+        a Master of Science in Software Engineering from Jomo Kenyatta University of 
+        Agriculture and Technology, and a Bachelor of Science in Information Technology 
         from the same institution. </p>
     </section>
 
