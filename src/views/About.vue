@@ -31,7 +31,7 @@ import Footer from "@/components/Footer.vue";
         <img src="@/assets/images/bg.jpg" class="d-block w-100 img-fluid" alt="Third Slide" style="max-height: 500px; object-fit: cover;">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/images/bg8.jpg" class="d-block w-100 img-fluid" alt="Fourth Slide" style="max-height: 500px; object-fit: cover;">
+        <img src="@/assets/images/ronald.jpeg" class="d-block w-100 img-fluid" alt="Fourth Slide" style="max-height: 500px; object-fit: cover;">
       </div>
     </div>
 
