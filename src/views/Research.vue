@@ -9,34 +9,35 @@ import Footer from "@/components/Footer.vue";
   <div class="container mx-auto px-4 my-5">
     <!-- Hero Section -->
     <section class="text-center py-5">
-      <h1 class="display-4 fw-bold text-primary mb-4">
-        Research Workshops
-      </h1>
+      <h1 class="display-4 fw-bold text-primary mb-4">Research Workshops</h1>
       <p class="lead text-muted mb-4">
-        Discover my research journey as a research fellow at Future Africa, 
+        Discover my research journey as a research fellow at Future Africa,
         University of Pretoria and beyond.
       </p>
       <a
-            href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
-            class="btn btn-outline-primary mb-3"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Explore My Research
-          </a>
+        href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
+        class="btn btn-outline-primary mb-3"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Explore My Research
+      </a>
     </section>
 
     <!-- Research Sections -->
     <section class="mb-5">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <h2 class="fw-bold text-secondary mb-3">Society 5.0-inspired digitalization framework 
-            for resilient and sustainable agriculture</h2>
+          <h2 class="fw-bold text-secondary mb-3">
+            Society 5.0-inspired digitalization framework for resilient and
+            sustainable agriculture
+          </h2>
           <p class="lead text-secondary">
-            Enterprise architectures provide a structured framework for designing and managing 
-            complex organisational systems. In the context of agricultural food chains, 
-            integrating artificial intelligence (AI) can enhance the capabilities of complex 
-            adaptive systems in Agriculture (CASA)... 
+            Enterprise architectures provide a structured framework for
+            designing and managing complex organisational systems. In the
+            context of agricultural food chains, integrating artificial
+            intelligence (AI) can enhance the capabilities of complex adaptive
+            systems in Agriculture (CASA)...
           </p>
           <a
             href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:8k81kl-MbHgC"
@@ -60,13 +61,16 @@ import Footer from "@/components/Footer.vue";
       <div class="row align-items-center">
         <div class="col-md-6">
           <h2 class="fw-bold text-secondary mb-3">
-            AI for Complex Adaptive Systems in Agric-Food Chains: Enterprise Architecture Perspectives
+            AI for Complex Adaptive Systems in Agric-Food Chains: Enterprise
+            Architecture Perspectives
           </h2>
           <p class="lead text-secondary">
-            Enterprise architectures provide a structured framework for designing and managing complex 
-            organisational systems. In the context of agricultural food chains, integrating artificial 
-            intelligence (AI) can enhance the capabilities of complex adaptive systems in Agriculture (CASA)....
-            </p>
+            Enterprise architectures provide a structured framework for
+            designing and managing complex organisational systems. In the
+            context of agricultural food chains, integrating artificial
+            intelligence (AI) can enhance the capabilities of complex adaptive
+            systems in Agriculture (CASA)....
+          </p>
           <a
             href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:8k81kl-MbHgC"
             class="btn btn-primary mb-3"
@@ -87,15 +91,15 @@ import Footer from "@/components/Footer.vue";
     </section>
 
     <div class="text-center">
-  <a
-    href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
-    class="btn btn-outline-primary mb-3"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    See More
-  </a>
-</div>
+      <a
+        href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
+        class="btn btn-outline-primary mb-3"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        See More
+      </a>
+    </div>
 
     <!-- Quote Section -->
     <section class="text-center py-5">

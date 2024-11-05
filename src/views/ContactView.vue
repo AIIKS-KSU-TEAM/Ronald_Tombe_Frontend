@@ -1,9 +1,12 @@
 <script setup>
-import { useContactForm } from '@/composables/useContactForm';
-import Navbar from '@/components/Navbar.vue';
-import Footer from '@/components/Footer.vue';
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 
-const { name, email, message, formMessage, alertType, submitForm } = useContactForm();
+import { useContactForm } from "@/composables/useContactForm";
+
+const { name, email, message, formMessage, alertType, submitForm } =
+  useContactForm();
+  
 </script>
 
 <template>

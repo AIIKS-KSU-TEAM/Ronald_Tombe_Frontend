@@ -4,7 +4,8 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
 // Use the composable to handle post and comments logic
-const { post, comments, comment, isLoading, errorMessage, submitComment } = useBlogPost();
+const { post, comments, comment, isLoading, errorMessage, submitComment } =
+  useBlogPost();
 </script>
 
 <template>

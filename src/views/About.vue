@@ -10,42 +10,90 @@ import Footer from "@/components/Footer.vue";
 
   <!-- Hero Section with Bootstrap Carousel -->
   <section class="hero-section position-relative">
-  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
-      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
-    </div>
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="3"
+        ></button>
+      </div>
 
-    <!-- Carousel slides -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="@/assets/images/bg2.jpg" class="d-block w-100 img-fluid" alt="First Slide" style="max-height: 500px; object-fit: cover;">
+      <!-- Carousel slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="@/assets/images/bg2.jpg"
+            class="d-block w-100 img-fluid"
+            alt="First Slide"
+            style="max-height: 500px; object-fit: cover"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="@/assets/images/bg6.jpg"
+            class="d-block w-100 img-fluid"
+            alt="Second Slide"
+            style="max-height: 500px; object-fit: cover"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="@/assets/images/bg.jpg"
+            class="d-block w-100 img-fluid"
+            alt="Third Slide"
+            style="max-height: 500px; object-fit: cover"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="@/assets/images/bg8.jpg"
+            class="d-block w-100 img-fluid"
+            alt="Fourth Slide"
+            style="max-height: 500px; object-fit: cover"
+          />
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="@/assets/images/bg6.jpg" class="d-block w-100 img-fluid" alt="Second Slide" style="max-height: 500px; object-fit: cover;">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/images/bg.jpg" class="d-block w-100 img-fluid" alt="Third Slide" style="max-height: 500px; object-fit: cover;">
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/images/bg8.jpg" class="d-block w-100 img-fluid" alt="Fourth Slide" style="max-height: 500px; object-fit: cover;">
-      </div>
-    </div>
 
-    <!-- Carousel controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
+      <!-- Carousel controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
   <section class="container my-5">
     <div class="row mb-5 align-items-center">
@@ -57,44 +105,70 @@ import Footer from "@/components/Footer.vue";
         />
       </div>
       <div class="col-md-7">
-  <h2 class="mb-4">About Dr. Tombe</h2>
-  <p class="mb-3">
-    Dr. Ronald Keng'ara Tombe is a leading expert in computing sciences and artificial intelligence, with a strong focus on sustainable agriculture and community empowerment.
-  </p>
-  <div class="mb-3">
-    <div class="d-flex align-items-start mb-2">
-      <i class="bi bi-person-circle text-primary me-2 fs-4"></i>
-      <span>
-        Lecturer in the <a href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team" target="_blank" class="text-decoration-none">Department of Computing Sciences at Kisii University</a>.
-      </span>
-    </div>
-    <div class="d-flex align-items-start mb-2">
-      <i class="bi bi-file-earmark-person text-success me-2 fs-4"></i>
-      <span>
-        Research Fellow (2022-2024) at <a href="https://www.futureafrica.science/ronald" target="_blank" class="text-decoration-none">Future Africa, University of Pretoria</a>.
-      </span>
-    </div>
-    <div class="d-flex align-items-start mb-2">
-      <i class="bi bi-briefcase text-warning me-2 fs-4"></i>
-      <span>
-        Director of Programs at the <a href="https://aiiks.org/" target="_blank" class="text-decoration-none">AIIKS Kisii University chapter</a>.
-      </span>
-    </div>
-    <div class="d-flex align-items-start mb-2">
-      <i class="bi bi-lightbulb text-primary me-2 fs-4"></i>
-      <span>
-        Co-founder of the <a href="http://aiaa-kenya.org/" target="_blank" class="text-decoration-none">Artificial Intelligence Alliance in Agriculture (AIAA)</a>, focusing on innovative tech solutions for agricultural communities.
-      </span>
-    </div>
-    <div class="d-flex align-items-start mb-2">
-      <i class="bi bi-person-check text-success me-2 fs-4"></i>
-      <span>
-        Vice-president of UKZN's International Student Association (ISA).
-      </span>
-    </div>
-  </div>
-</div>
-
+        <h2 class="mb-4">About Dr. Tombe</h2>
+        <p class="mb-3">
+          Dr. Ronald Keng'ara Tombe is a leading expert in computing sciences
+          and artificial intelligence, with a strong focus on sustainable
+          agriculture and community empowerment.
+        </p>
+        <div class="mb-3">
+          <div class="d-flex align-items-start mb-2">
+            <i class="bi bi-person-circle text-primary me-2 fs-4"></i>
+            <span>
+              Lecturer in the
+              <a
+                href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team"
+                target="_blank"
+                class="text-decoration-none"
+                >Department of Computing Sciences at Kisii University</a
+              >.
+            </span>
+          </div>
+          <div class="d-flex align-items-start mb-2">
+            <i class="bi bi-file-earmark-person text-success me-2 fs-4"></i>
+            <span>
+              Research Fellow (2022-2024) at
+              <a
+                href="https://www.futureafrica.science/ronald"
+                target="_blank"
+                class="text-decoration-none"
+                >Future Africa, University of Pretoria</a
+              >.
+            </span>
+          </div>
+          <div class="d-flex align-items-start mb-2">
+            <i class="bi bi-briefcase text-warning me-2 fs-4"></i>
+            <span>
+              Director of Programs at the
+              <a
+                href="https://aiiks.org/"
+                target="_blank"
+                class="text-decoration-none"
+                >AIIKS Kisii University chapter</a
+              >.
+            </span>
+          </div>
+          <div class="d-flex align-items-start mb-2">
+            <i class="bi bi-lightbulb text-primary me-2 fs-4"></i>
+            <span>
+              Co-founder of the
+              <a
+                href="http://aiaa-kenya.org/"
+                target="_blank"
+                class="text-decoration-none"
+                >Artificial Intelligence Alliance in Agriculture (AIAA)</a
+              >, focusing on innovative tech solutions for agricultural
+              communities.
+            </span>
+          </div>
+          <div class="d-flex align-items-start mb-2">
+            <i class="bi bi-person-check text-success me-2 fs-4"></i>
+            <span>
+              Vice-president of UKZN's International Student Association (ISA).
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="row mb-5 align-items-center">
@@ -148,7 +222,6 @@ import Footer from "@/components/Footer.vue";
         />
       </div>
     </div>
-
 
     <div class="row mb-5 p-4 bg-light rounded shadow-sm">
       <div class="col-md-4 text-center">
@@ -204,7 +277,9 @@ import Footer from "@/components/Footer.vue";
               <i class="bi bi-globe"></i>
             </div>
             <div class="timeline-content">
-              <h5 class="mb-2 text-primary">Global Outreach and Collaboration</h5>
+              <h5 class="mb-2 text-primary">
+                Global Outreach and Collaboration
+              </h5>
               <p class="text-muted">
                 Dr. Tombe is dedicated to expanding his impact through global
                 partnerships, bringing innovative AI solutions to agriculture
