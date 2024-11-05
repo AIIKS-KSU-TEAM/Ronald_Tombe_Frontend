@@ -71,6 +71,13 @@ import Footer from "@/components/Footer.vue";
             style="max-height: 500px; object-fit: cover"
           />
         </div>
+        <div class="carousel-item">
+        <img src="@/assets/images/bg8.jpg" 
+          class="d-block w-100 img-fluid" 
+          alt="Fourth Slide" 
+          style="max-height: 500px; 
+          object-fit: cover;">
+      </div>
       </div>
 
       <!-- Carousel controls -->
