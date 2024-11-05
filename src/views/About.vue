@@ -35,6 +35,11 @@ import Footer from "@/components/Footer.vue";
           data-bs-target="#heroCarousel"
           data-bs-slide-to="3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="4"
+        ></button>
       </div>
 
       <!-- Carousel slides -->
@@ -74,7 +79,7 @@ import Footer from "@/components/Footer.vue";
         <div class="carousel-item">
         <img src="@/assets/images/bg8.jpg" 
           class="d-block w-100 img-fluid" 
-          alt="Fourth Slide" 
+          alt="Fifth Slide" 
           style="max-height: 500px; 
           object-fit: cover;">
       </div>
