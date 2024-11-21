@@ -27,16 +27,22 @@
               <a href="/" class="text-white text-decoration-none">Home</a>
             </li>
             <li>
-              <a href="/about" class="text-white text-decoration-none">Profile</a>
+              <a href="/about" class="text-white text-decoration-none"
+                >Profile</a
+              >
             </li>
             <li>
               <a href="/blog" class="text-white text-decoration-none">Blogs</a>
             </li>
             <li>
-              <a href="/research" class="text-white text-decoration-none">Research</a>
+              <a href="/research" class="text-white text-decoration-none"
+                >Research</a
+              >
             </li>
             <li>
-              <a href="/contact" class="text-white text-decoration-none">Contact</a>
+              <a href="/contact" class="text-white text-decoration-none"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -51,14 +57,24 @@
             <li><i class="bi bi-telephone me-2"></i>+254-710-791-596</li>
             <li>
               <i class="bi bi-envelope me-2"></i>
-              <a href="mailto:ronaldtombe@gmail.com" class="text-white text-decoration-none">ronaldtombe@gmail.com</a>
+              <a
+                href="mailto:ronaldtombe@gmail.com"
+                class="text-white text-decoration-none"
+                >ronaldtombe@gmail.com</a
+              >
             </li>
           </ul>
           <div class="mt-3">
-            <a href="https://www.linkedin.com/in/ronald-tombe-9576385b/" class="text-white text-decoration-none me-3">
+            <a
+              href="https://www.linkedin.com/in/ronald-tombe-9576385b/"
+              class="text-white text-decoration-none me-3"
+            >
               <i class="bi bi-linkedin"></i>
             </a>
-            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fronaldtombe" class="text-white text-decoration-none me-3">
+            <a
+              href="https://x.com/i/flow/login?redirect_after_login=%2Fronaldtombe"
+              class="text-white text-decoration-none me-3"
+            >
               <i class="bi bi-twitter"></i>
             </a>
             <a href="#" class="text-white text-decoration-none me-3">
@@ -75,10 +91,14 @@
           <hr class="bg-warning w-25" />
           <ul class="list-unstyled">
             <li>
-              <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
+              <a href="#" class="text-white text-decoration-none"
+                >Privacy Policy</a
+              >
             </li>
             <li>
-              <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+              <a href="#" class="text-white text-decoration-none"
+                >Terms of Service</a
+              >
             </li>
             <li>
               <a href="#" class="text-white text-decoration-none">FAQ</a>

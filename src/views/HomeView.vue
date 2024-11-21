@@ -16,10 +16,11 @@ import Navbar from "@/components/Navbar.vue";
       >
         <h1 class="display-4 fw-bold mb-3">Dr. Ronald Keng'ara Tombe</h1>
         <p class="lead text-secondary mb-4">
-          A lecturer in the Department of Computing Sciences at Kisii University,
-          a Research Fellow at Future Africa, 
-          University of Pretoria, the Director of programs at AIIKS Kisii University chapter, 
-          and the Co-founder of the Artificial Intelligence Alliance in Agriculture
+          A lecturer in the Department of Computing Sciences at Kisii
+          University, a Research Fellow at Future Africa, University of
+          Pretoria, the Director of programs at AIIKS Kisii University chapter,
+          and the Co-founder of the Artificial Intelligence Alliance in
+          Agriculture
         </p>
         <div
           class="d-flex flex-row flex-sm-row justify-content-center justify-content-lg-start mt-4 gap-2"
@@ -54,12 +55,13 @@ import Navbar from "@/components/Navbar.vue";
         <h3 class="fw-bold text-center">Qualifications</h3>
         <hr class="w-25 mx-auto" />
       </div>
-      <p class="lead text-secondary mx-auto" style="max-width: 95%"> 
-        Dr. Ronald Tombe holds a Postdoctoral Fellowship (2024) from the University of Pretoria, 
-        a Doctor of Philosophy in Computer Science (2021) from the University of KwaZulu-Natal, 
-        a Master of Science in Software Engineering (2015) from Jomo Kenyatta University of 
-        Agriculture and Technology, and a Bachelor of Science in Information Technology (2009) 
-        from the same institution. </p>
+      <p class="lead text-secondary mx-auto" style="max-width: 95%">
+        Dr. Ronald Tombe holds a Postdoctoral Fellowship from the University of
+        Pretoria, a Doctor of Philosophy in Computer Science from the University
+        of KwaZulu-Natal, a Master of Science in Software Engineering from Jomo
+        Kenyatta University of Agriculture and Technology, and a Bachelor of
+        Science in Information Technology from the same institution.
+      </p>
     </section>
 
     <section id="about-section" class="mt-5">
@@ -107,7 +109,7 @@ import Navbar from "@/components/Navbar.vue";
             aria-controls="goals"
             aria-selected="false"
           >
-           Research Publication
+            Research Publication
           </button>
         </li>
       </ul>
@@ -121,22 +123,38 @@ import Navbar from "@/components/Navbar.vue";
           <div class="row align-items-center">
             <div class="col-md-6 lead text-secondary">
               <p>
-                Dr. Ronald Keng'ara Tombe is a lecturer in the 
-                <a href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team" 
-                target="_blank" class="text-decoration-none">Department of Computing Sciences at Kisii University
-              </a> since 2015. He is a Research Fellow (2022-2024) at 
-              <a href="https://www.futureafrica.science/ronald" target="_blank" class="text-decoration-none">Future 
-                Africa, University of Pretoria</a>, Director of Programs at the <a href="https://aiiks.org/" 
-                target="_blank" class="text-decoration-none">AIIKS, Kisii University chapter</a>
-                 and the Chairperson of the Kenyan NGO, 
-                <a href="http://aiaa-kenya.org/" target="_blank" class="text-decoration-none">Artificial 
-                  Intelligence Alliance in Agriculture (AIAA)</a>. His research covers artificial intelligence, 
-                  computer vision, machine learning, and human-centered interaction, focusing on software solutions 
-                  that enhance agricultural extension services in climate action and resilience.
+                Dr. Ronald Keng'ara Tombe is a lecturer in the
+                <a
+                  href="https://kisiiuniversity.ac.ke/dpt/department-of-computing-science/team"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >Department of Computing Sciences at Kisii University
+                </a>
+                since 2015. He is a Research Fellow (2022-2024) at
+                <a
+                  href="https://www.futureafrica.science/ronald"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >Future Africa, University of Pretoria</a
+                >, Director of Programs at the
+                <a
+                  href="https://aiiks.org/"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >AIIKS, Kisii University chapter</a
+                >
+                and the Chairperson of the Kenyan NGO,
+                <a
+                  href="http://aiaa-kenya.org/"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >Artificial Intelligence Alliance in Agriculture (AIAA)</a
+                >. His research covers artificial intelligence, computer vision,
+                machine learning, and human-centered interaction, focusing on
+                software solutions that enhance agricultural extension services
+                in climate action and resilience.
               </p>
-
-
-              </div>
+            </div>
             <div class="col-md-6">
               <img
                 src="@/assets/images/about.jpg"
@@ -152,28 +170,53 @@ import Navbar from "@/components/Navbar.vue";
           role="tabpanel"
           aria-labelledby="awards-tab"
         >
-        <div class="row align-items-center">
-          <div class="col-md-6 lead text-secondary">
+          <div class="row align-items-center">
+            <div class="col-md-6 lead text-secondary">
               <ul>
-                  <li>
-                      <a href="https://youtu.be/EQu5euwif70?si=JqNEq76V1e4AIXfO" target="_blank">
-                          International Colloquium on Indigenous Languages (Feb 20-21, 2024, Sheraton Hotel, Dar es Salaam, Tanzania)
-                      </a> – Focus: Integrating digital and artistic youth skills to promote indigenous multilingualism for sustainable futures. 
-                      Jointly hosted by <a href="https://aiiks.org/" 
-                      target="_blank" class="text-decoration-none">AIIKS</a> and the <a href="https://www.sabdf.org.za/partners/africa-forum/">(Africa Forum).</a>
-                  </li>
-                  <li>
-                      <a href="https://deeplearningindaba.com/2024/workshops/" target="_blank">
-                          Deep Learning Indaba 2024 (Sep 1-6th, 2024, Dakar, Senegal)
-                      </a> – The annual meeting of the African AI community aimed at strengthening AI across the continent on the following themes:
-                      <ul>
-                          <li>Robot Learning for Africa Workshop – Empowering African voices in AI through data, models, and innovation.</li>
-                          <li>Uniting for a Climate-Resilient Africa – Promoting climate data and knowledge exchange for resilience.</li>
-                      </ul>
-                  </li>
+                <li>
+                  <a
+                    href="https://youtu.be/EQu5euwif70?si=JqNEq76V1e4AIXfO"
+                    target="_blank"
+                  >
+                    International Colloquium on Indigenous Languages (Feb 20-21,
+                    2024, Sheraton Hotel, Dar es Salaam, Tanzania)
+                  </a>
+                  – Focus: Integrating digital and artistic youth skills to
+                  promote indigenous multilingualism for sustainable futures.
+                  Jointly hosted by
+                  <a
+                    href="https://aiiks.org/"
+                    target="_blank"
+                    class="text-decoration-none"
+                    >AIIKS</a
+                  >
+                  and the
+                  <a href="https://www.sabdf.org.za/partners/africa-forum/"
+                    >(Africa Forum).</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://deeplearningindaba.com/2024/workshops/"
+                    target="_blank"
+                  >
+                    Deep Learning Indaba 2024 (Sep 1-6th, 2024, Dakar, Senegal)
+                  </a>
+                  – The annual meeting of the African AI community aimed at
+                  strengthening AI across the continent on the following themes:
+                  <ul>
+                    <li>
+                      Robot Learning for Africa Workshop – Empowering African
+                      voices in AI through data, models, and innovation.
+                    </li>
+                    <li>
+                      Uniting for a Climate-Resilient Africa – Promoting climate
+                      data and knowledge exchange for resilience.
+                    </li>
+                  </ul>
+                </li>
               </ul>
-          </div>
-
+            </div>
 
             <div class="col-md-6">
               <img
@@ -192,28 +235,47 @@ import Navbar from "@/components/Navbar.vue";
         >
           <div class="row align-items-center">
             <div class="col-md-6 lead text-secondary">
-            <p>
-              Dr. Ronald Keng'ara Tombe is a distinguished researcher in computer vision, artificial intelligence, and software engineering, with a focus on sustainable agriculture and digitalization. His notable works include:
+              <p>
+                Dr. Ronald Keng'ara Tombe is a distinguished researcher in
+                computer vision, artificial intelligence, and software
+                engineering, with a focus on sustainable agriculture and
+                digitalization. His notable works include:
+              </p>
               <ul>
                 <li>
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:0EnyYjriUFMC" target="_blank" class="text-decoration-none">
-                    "Agricultural social networks: An agricultural value chain-based digitalization framework for an inclusive digital economy"
-                  </a> Sustainable agriculture is the backbone of food security systems and a driver of human well-being in global economic development (Sustainable Development Goal SDG 3)...
+                  <a
+                    href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:0EnyYjriUFMC"
+                    target="_blank"
+                    class="text-decoration-none"
+                  >
+                    "Agricultural social networks: An agricultural value
+                    chain-based digitalization framework for an inclusive
+                    digital economy"
+                  </a>
+                  Sustainable agriculture is the backbone of food security
+                  systems and a driver of human well-being in global economic
+                  development (Sustainable Development Goal SDG 3)...
                 </li>
                 <li>
-                  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:_FxGoFyzp5QC" target="_blank" class="text-decoration-none">
-                    "Adaptive deep co-occurrence feature learning based on classifier-fusion for remote sensing scene classification"
-                  </a> Remote sensing scene classification has numerous applications on land cover land use...
+                  <a
+                    href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SpAdUDYAAAAJ&citation_for_view=SpAdUDYAAAAJ:_FxGoFyzp5QC"
+                    target="_blank"
+                    class="text-decoration-none"
+                  >
+                    "Adaptive deep co-occurrence feature learning based on
+                    classifier-fusion for remote sensing scene classification"
+                  </a>
+                  Remote sensing scene classification has numerous applications
+                  on land cover land use...
                 </li>
               </ul>
-            </p>
-            <a
-              href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
-              class="btn btn-outline-secondary w-50 w-lg-25 mb-3"
-              style="border-radius: 20px"
-              >Read More</a
-            >
-          </div>
+              <a
+                href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=SpAdUDYAAAAJ"
+                class="btn btn-outline-secondary w-50 w-lg-25 mb-3"
+                style="border-radius: 20px"
+                >Read More</a
+              >
+            </div>
 
             <div class="col-md-6">
               <img

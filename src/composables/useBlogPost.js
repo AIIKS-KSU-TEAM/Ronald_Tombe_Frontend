@@ -25,14 +25,14 @@ export function useBlogPost() {
 
     try {
       const response = await axios.get(
-        `${API_BASE_URL}/blog/post/${year}/${month}/${day}/${slug}/`
+        `${API_BASE_URL}/blog/post/${year}/${month}/${day}/${slug}/`,
       );
       post.value = response.data;
 
       post.value.publish = moment(post.value.publish).format(
-        "MMMM D, YYYY [at] h:mm:ss a"
+        "MMMM D, YYYY [at] h:mm:ss a",
       );
-      fetchComments(); 
+      fetchComments();
     } catch (error) {
       errorMessage.value = "Error fetching post";
       console.error("Error fetching post:", error);
@@ -46,7 +46,7 @@ export function useBlogPost() {
 
     try {
       const response = await axios.get(
-        `${API_BASE_URL}/blog/post/${post.value.id}/comments/`
+        `${API_BASE_URL}/blog/post/${post.value.id}/comments/`,
       );
       comments.value = response.data;
     } catch (error) {
@@ -62,14 +62,14 @@ export function useBlogPost() {
       comment.value.post = post.value.id;
       await axios.post(
         `${API_BASE_URL}/blog/post/${post.value.id}/comments/`,
-        comment.value
+        comment.value,
       );
 
       comment.value.name = "";
       comment.value.email = "";
       comment.value.content = "";
 
-      fetchComments(); 
+      fetchComments();
     } catch (error) {
       errorMessage.value = "Error submitting comment";
       console.error("Error submitting comment:", error);

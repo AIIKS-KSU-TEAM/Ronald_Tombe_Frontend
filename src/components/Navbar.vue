@@ -66,12 +66,20 @@ const isNavbarCollapsed = ref(true);
   <nav class="subnavbar">
     <ul class="navbar-nav subnavbar-items">
       <li class="nav-item">
-        <a class="nav-link" href="https://x.com/i/flow/login?redirect_after_login=%2Fronaldtombe" target="_blank">
+        <a
+          class="nav-link"
+          href="https://x.com/i/flow/login?redirect_after_login=%2Fronaldtombe"
+          target="_blank"
+        >
           <i class="bi bi-twitter"></i>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.linkedin.com/in/ronald-tombe-9576385b/" target="_blank">
+        <a
+          class="nav-link"
+          href="https://www.linkedin.com/in/ronald-tombe-9576385b/"
+          target="_blank"
+        >
           <i class="bi bi-linkedin"></i>
         </a>
       </li>
