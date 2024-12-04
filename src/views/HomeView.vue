@@ -132,7 +132,7 @@ import Navbar from "@/components/Navbar.vue";
                 </a>
                 since 2015. He is a Research Fellow (2022-2024) at
                 <a
-                  href="https://www.futureafrica.science/ronald"
+                  href="https://www.futureafrica.science/farleaf/far-leaf-profiles/dr-ronald-tombe/"
                   target="_blank"
                   class="text-decoration-none"
                   >Future Africa, University of Pretoria</a
