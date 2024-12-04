@@ -117,7 +117,7 @@ import Footer from "@/components/Footer.vue";
             <span>
               Research Fellow (2022-2024) at
               <a
-                href="https://www.futureafrica.science/ronald"
+                href="https://www.futureafrica.science/farleaf/far-leaf-profiles/dr-ronald-tombe/"
                 target="_blank"
                 class="text-decoration-none"
                 >Future Africa, University of Pretoria</a
