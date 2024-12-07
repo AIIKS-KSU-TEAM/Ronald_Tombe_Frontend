@@ -68,16 +68,15 @@ const openPopup = () => {
             Old College House Lounge, Hatfield Campus, University of Pretoria <br />
           </p>
           <a
-        href="#"
+        href="https://www.up.ac.za/calendar/event-info/3277078/invitation-"
         class="btn btn-primary mb-3"
-        @click.prevent="openPopup" 
       >
-        View More
+        Localising-justice-in-africas-just-transition
       </a>
         </div>
         <div class="col-md-6 text-center">
           <img
-            src="@/assets/images/conference.jpg"
+            src="@/assets/images/cas.jpg"
             alt="Localising Justice in Africa’s Just Transition Seminar"
             class="img-fluid rounded shadow-sm"
             style="object-fit: cover; height: 100%; width: 100%;"
