@@ -153,7 +153,7 @@ import Footer from "@/components/Footer.vue";
             <i class="bi bi-person-check text-success me-2 fs-4"></i>
             <span>
               Vice-President of <a
-                href="https://ndabaonline.ukzn.ac.za/NewsletterPrinter.aspx?id=1585#:~:text=Dr%20Ronald%20Tombe%20with%20his,a%20PhD%20in%20Computer%20Science."
+                href="https://ndabaonline.ukzn.ac.za/UkzndabaStory/Vol9-Issue50-aes-grad/ISA%20Vice-President%20Awarded%20PhD/"
                 target="_blank"
                 class="text-decoration-none"
                 >UKZN's International Student Association (ISA).</a>
